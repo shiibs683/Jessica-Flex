@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: hsl(0, 0%, 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  color: hsl(0, 3%, 75%);
+}
+.container {
+  background-color: hsl(0, 0%, 12%);
+  height: 80vh;
+  min-width: 400px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.container img {
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 36px;
+  margin-left: 130px;
+}
+h1 {
+  text-align: center;
+  font-weight: 100;
+}
+.London {
+  color: hsl(75, 54%, 47%);
+  margin-bottom: 36px;
+}
+.box {
+  background-color: hsl(0, 0%, 20%);
+  height: 36px;
+  margin: auto 20px;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.box-p {
+  padding-top: 8px;
+}
